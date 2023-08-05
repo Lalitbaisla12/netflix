@@ -1,0 +1,60 @@
+body{
+    background: rgba(0, 0, 0, 0)  url(netflixreal.jpg);
+   
+    background-blend-mode: darken;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.button {
+    padding: 8px 15px;
+    display: inline-block;
+    background-color: red;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+}
+.button2 {
+    padding: 8px 15px;
+    display: inline-block;
+    background-color: red;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 750px;
+    border-radius: 6px;
+}
+.nav{
+    padding-top: 5px;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.content h1{
+    font-size: 50px;
+}
+.content h2{
+    font-size: 30px;
+}
+.content h3{
+    font-size: 20px;
+}
+.logo{
+    width: 180px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
